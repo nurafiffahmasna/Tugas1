@@ -1,0 +1,44 @@
+1.Apa itu Git dan kegunaanya?
+GIT adalah sebuah version control system yang telah digunakan oleh para developer untuk dapat mengembangkan software secara bersamaan. 
+Fungsi utama dari GIT adalah mengatur versi source code program dengan memberikan tanda baris serta code mana yang perlu ditambah ataupun diganti. 
+Seperti yang sudah dijelaskan diatas, dengan menggunakan GIT ini kita tidak perlu khawatir lagi bila code yang dikerjakan bentrok. 
+Hal ini dapat terjadi karena para developer telah membuat branch sebagai workspace nya. 
+Fitur yang tidak kalah lagi pada GIT ialah kita dapat memberikan sebuah komentar di soyrce code yang telah diubah atau ditambah. 
+Dengan begitu dapat memudahkan para developer lain untuk memberitahu kendala apa yang dialami oleh developer lain. Tujuan penggunaan GIT yakni untuk mengelola versi source code program dengan menentukan baris serta kode yang akan ditambahkan atau diganti.
+
+2.Apa itu Github dan kegunaanya?
+GitHub adalah website yang digunakan untuk menyimpan dan mengelola kode suatu project. Anda dapat membuat atau mengupload kode Anda 
+ke server GitHub dan kemudian melakukan coding secara online.
+GitHub digunakan untuk menyimpan source code untuk suatu proyek dan melacak riwayat lengkap semua perubahan kode itu. 
+Ini memungkinkan pengguna untuk berkolaborasi dalam proyek secara lebih efektif dengan menyediakan alat untuk mengelola 
+perubahan yang mungkin bertentangan dari beberapa pengembang. 
+
+3. Sebutkan istilah-istilah yang ada di Git dan jelaskan masing-masing istilah tersebu?
+1.Push
+push untuk menyimpan perubahan yang telah kita lakukan ke dalam sebuah repository yang berada di git server (remote) 
+istilahnya mah diupload lah kedalam sebuah repository.
+2. pull
+pull adalah menarik seluruh data perubahan yang telah dilakukan apabila kita tertinggal beberapa titik dibawah.
+3. fetch
+fetch ini hampir sama seperti pull, fetch hanya mengambil perubahan tanpa merging kedalam branch yang aktif.
+4. branch
+branch biasa disebut percabangan. atau kalo menurut saya lebih seperti folder didalam sebuah repository.
+branch tempat kita melakukan perubahan. biasanya default dari git adalah branch master. 
+pada umumnya branch terdiri dari hotfix,feature,develop dan master (next time kita bahas satu persatu :D).
+5. remote
+remote adalah tempat penyimpanan di server git.
+6. commit
+sebelum melakukan push kita akan melakukan commit. commit tersebut yang akan menyimpan perubahan kita di local baru melakukan push ke server git.
+7. merge
+merge adalah penggabungan code antara branch 1 dengan branch yang lainnya, contoh : kita melakukan perubahan pada branch develop lalu
+kita ingin mengupdate perubahan yang kita lakukan kedalam branch master. untuk menggabungkan perubahan antara branch develop dengan master yaitu dengan merge.
+
+4.Sebutkan layanan selain github?
+- SourceForge 
+- CodePlex 
+- BitBucket 
+- GitLab 
+- BeanStalk 
+- Google Cloud Source 
+
+
